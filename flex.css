@@ -1,0 +1,24 @@
+.container{
+
+    display: flex; /* Define o layout que será utilizado */
+    flex-direction: column-reverse;  /* Possíveis valores principais (row|row-reverse|columm|column-reverse) */
+    justify-content: space-around;  /* Distribuição uniforme dos itens ao longo do eixo principal. */
+
+     /*Possíveis valores principais (center|stretch|flex-start|flex-end|baseline)*/
+    align-content: stretch; /* Linhas distribuidas uniformemente no eixo transversal, ocupando todo o espaço disponível */
+    /* justify-content: space-beetween; */
+    flex-wrap: wrap; /* Define se os itens são forçados a ficarem na mesma linha ou se podem ser quebradas em várias linhas */
+    align-items: center; /* Alinha os itens ao longo do eixo transversal */
+
+    
+}
+
+.containerTwo{
+
+    display: flex;
+    flex-direction: row-reverse;  /* Exibição em linha da direita para a esquerda */
+    justify-content: space-between;  /* Usado para ocupar todo o espaço livre após a separação dos itens e dividí-lo igualmente entre os itens */
+    align-content: baseline; /* Alinha a partir da base da primeira linha de texto de cada um */
+    flex-wrap: wrap; 
+
+}
